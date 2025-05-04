@@ -334,6 +334,7 @@ try:
     main()
 except KeyboardInterrupt:
     autoketik(f"""{merah}cancel
-{hijau}--keluar--""")
+{hijau}--keluar--
+""")
     sys.exit()
 
