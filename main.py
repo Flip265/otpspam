@@ -333,8 +333,7 @@ def main():
 try:
     main()
 except KeyboardInterrupt:
- print(f"""{hijau}
---Keluar Dari Tools--
-""")  # properly closed
-
+    autoketik(f"""{merah}cancel
+{hijau}--keluar--""")
     sys.exit()
+
