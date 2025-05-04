@@ -333,8 +333,8 @@ def main():
 try:
     main()
 except KeyboardInterrupt:
-    print(f"""{hijau}
+ print(f"""{hijau}
 --Keluar Dari Tools--
-""")  # Now properly closed with triple quotes
+""")  # properly closed
 
     sys.exit()
