@@ -333,6 +333,8 @@ def main():
 try:
     main()
 except KeyboardInterrupt:
-    autoketik(f"""{merah}Batal
-{hijau}--Keluar Dari Tools--""")
+    print(f"""{hijau}
+--Keluar Dari Tools--
+""")  # Now properly closed with triple quotes
+
     sys.exit()
